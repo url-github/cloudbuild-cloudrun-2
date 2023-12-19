@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'europe-central2-docker.pkg.dev/empik-ga360/docker-013/my-build:stage', '.' ]
+images:
+- 'europe-central2-docker.pkg.dev/empik-ga360/docker-013/my-build:stage'
+
+# Change the file name to cloudbuild.yaml when you submit the job in Google CLI.
