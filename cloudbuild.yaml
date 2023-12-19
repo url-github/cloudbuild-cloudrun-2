@@ -17,7 +17,7 @@ steps:
   - '--image'
   - 'europe-central2-docker.pkg.dev/empik-ga360/docker-013/my-build:prod1'
   - '--region'
-  - 'us-central1'  # You can change this if you want to deploy to a different region
+  - 'europe-central2'  # You can change this if you want to deploy to a different region
   - '--platform'
   - 'managed'
   # Optional: if you want to allow unauthenticated access
